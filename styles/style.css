@@ -34,12 +34,12 @@ nav{
     font-size: 2.25rem;
     font-weight: 800;
 }
-ul{
+.nav-ul{
     display: flex;
     gap: 2.75rem;
     text-decoration: none;
 }
-ul> li, a{
+.nav-ul> .nav-ul, a{
     list-style: none;
     text-decoration: none;
     color: var(--paragraph-color);
@@ -59,6 +59,7 @@ ul> li, a{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 120px ;
+    border-radius: 1rem;
 }
 .gredient{
     border-radius: 1rem;
@@ -145,6 +146,59 @@ form{
     align-items: center;
     border: none;
 }
+/* Our Popular Tours */
+.popular{
+    display: flex;
+    gap: 9rem;
+    align-items: center;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+.popular-contain{
+
+}
+.popular-tittle{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+
+}
+.popular-detail{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.popular-ul{
+
+}
+.popular-li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.popular-button{
+    width: 10.875rem;
+    height: 3.25rem;
+    width: 10.875rem;
+    height: 3.25rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    margin-top: 1rem;
+}
+
+
 
 
 /* Media Quarry  */
@@ -178,13 +232,13 @@ body{
     font-size: 1.8rem;
     font-weight: 800;
 }
-ul{
+.nav-ul{
     display: none;
     gap: 0.5rem;
     text-decoration: none;
 }
 
-ul> li, a{
+.nav-ul> .nav-ul, a{
     list-style: none;
     text-decoration: none;
     color: var(--paragraph-color);
@@ -224,6 +278,35 @@ form{
     width: 100%;
 }
 .find-button {
+    width: 100%;
+}
+/* Our Popular Tours */
+.popular{
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.popular-contain{
+    display: flex;
+    flex-direction: column;
+}
+.popular-tittle{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.popular-detail{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.popular-li{
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem
+}
+.popular-button{
+    margin-top: 1.5rem;
+}
+.popular-img img{
     width: 100%;
 }
 }
