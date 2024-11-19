@@ -316,115 +316,69 @@ form{
     top: 35%;
     left: 40%;
 }
-/* .img-1{
-
-}
-
-.name-maldives{
-    position: absolute;
-    color: #FFF;
+/* Why Choose Us */
+.why{
     text-align: center;
-    font-size: 1.75rem;
+    width: 643px;
+    margin: 60px auto;
+}
+.why-tittle{
+    color: var(--tittle-color);
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
     font-weight: 800;
-    top: 34%;
-    left: 40%;
+    line-height: normal;
 }
-.location div img{
-    width: 100%;
-    height: 100%;
+.why-detail{
+    color:var(--paragraph-color);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
-.img{
-    position: relative;
-}
-.name-indonesia{
-    position: absolute;
-    color: #FFF;
-    text-align: center;
-    font-size: 1.75rem;
-    font-weight: 800;
-    top: 34%;
-    left: 40%;
-}
-.location{
+.why-continer-1{
     display: flex;
-    gap: 1.5rem;
-    margin-bottom: 1.2rem;
-    height: 18rem;
+    gap: 24px;
+    margin-bottom: 24px;
+    margin-top: 48px;
 }
-.location > .img-1{
-    flex-grow: 2;
-    position: relative;
+.card-1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    border-radius: 16px;
+    padding: 32px;
 }
-.name-srilanka{
-    position: absolute;
-    color: #FFF;
-    text-align: center;
-    font-size: 1.75rem;
+.card-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    border-radius: 16px;
+    padding: 32px;
+}
+.card-3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    border-radius: 16px;
+    padding: 32px;
+}
+.card-tittle{
+    color: var(--tittle-color);
+    font-size: 24px;
     font-weight: 800;
-    top: 38%;
-    left: 40%;
 }
-.location > .img-2{
-    flex-grow: 3;
-    position: relative;
+.card-pera{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
-.name-north{
-    position: absolute;
-    color: #FFF;
-    text-align: center;
-    font-size: 1.75rem;
-    font-weight: 800;
-    top: 36%;
-    left: 32%;
-}
-.location > .img-3{
-    flex-grow: 1;
-    position: relative;
-}
-.name-kashmir{
-    position: absolute;
-    color: #FFF;
-    text-align: center;
-    font-size: 1.75rem;
-    font-weight: 800;
-    top: 34%;
-    left: 32%;
-}
-.location div img{
-    width: 100%;
-    height: 100%;
-}
+.why-continer-2{
+    padding: 0px 300px;
 
-.location .img-1{
-    flex-grow: 2;
-    position: relative;
 }
-.name-bangladesh{
-    position: absolute;
-    color: #FFF;
-    text-align: center;
-    font-size: 1.75rem;
-    font-weight: 800;
-    top: 35%;
-    left: 35%;
-}
-.location-3 .img-2{
-    flex-grow: 4;
-    position: relative;
-}
-.name-bandarban{
-    position: absolute;
-    color: #FFF;
-    text-align: center;
-    font-size: 1.75rem;
-    font-weight: 800;
-    top: 35%;
-    left: 40%;
-}
-.location-3 div img{
-    width: 100%;
-    height: 100%;
-} */
 
 
 
@@ -553,5 +507,17 @@ form{
 .location img{
     width: 100%;
     height: 180px;
+}
+/* Why Choose Us */
+.why{
+    text-align: center;
+    width: 100%;
+}
+.why-continer-1{
+    flex-direction: column;
+}
+.why-continer-2{
+    flex-direction: column;
+    padding: 0px;
 }
 }
