@@ -96,6 +96,7 @@ nav{
 form{
     position: relative;
     display: flex;
+    gap: 1rem;
     padding: 1rem;
     justify-content: space-between;
     border-radius: 0.5rem;
@@ -104,7 +105,7 @@ form{
     z-index: 2;
 }
 .where-go{
-    width: 10.875rem;
+    width: 100%;
     height: 3rem;
     border-radius: 0.5rem;
     padding-left: 1rem;
@@ -112,7 +113,7 @@ form{
     border: none;
 }
 .when{
-    width: 10.875rem;
+    width: 100%;
     height: 3.25rem; 
     border-radius: 0.5rem;
     color: rgba(19, 19, 24, 0.50);
@@ -122,7 +123,7 @@ form{
     border: none;
 }
 .typs{
-    width: 10.875rem;
+    width: 100%;
     height: 3.25rem;
     border-radius: 0.5rem;
     color: rgba(19, 19, 24, 0.50);
@@ -134,7 +135,7 @@ form{
 .find-button{
     display: flex;
     gap: 0.50rem;
-    width: 10.875rem;
+    width: 100%;
     height: 3.25rem;
     border-radius: 0.5rem;
     background-color: var(--primary-color);
@@ -153,6 +154,7 @@ form{
     align-items: center;
     margin-top: 6rem;
     margin-bottom: 3rem;
+    justify-content: space-between;
 }
 .popular-contain{
 
@@ -197,6 +199,232 @@ form{
     background-color: var(--primary-color);
     margin-top: 1rem;
 }
+/* Choose Your Destination */
+.destination{
+    text-align: center;
+}
+.destination-tittle{
+    color: var(--tittle-color);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.destination-detail{
+    color: var(--paragraph-color);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+.location{
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+.location img{
+    width: 100%;
+    height: 100%;
+}
+.img-1{
+    flex-grow: 1;
+    position: relative;
+}
+.name-maldives{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    top: 34%;
+    left: 40%;
+}
+.img-2{
+    flex-grow: 1;
+    position: relative;
+}
+.name-indonesia{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    top: 34%;
+    left: 40%;
+}
+.img-3{
+    flex-grow: 2;
+    position: relative;
+}
+.name-srilanka{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    top: 38%;
+    left: 40%;
+}
+.img-4{
+    flex-grow: 3;
+    position: relative;
+}
+.name-north{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    top: 36%;
+    left: 32%;
+}
+.img-5{
+    flex-grow: 1;
+    position: relative;
+}
+.name-kashmir{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    top: 34%;
+    left: 32%;
+}
+.img-6{
+    flex-grow: 2;
+    position: relative;
+}
+.name-bangladesh{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    top: 35%;
+    left: 35%;
+}
+.img-7{
+    flex-grow: 4;
+    position: relative;
+}
+.name-bandarban{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    top: 35%;
+    left: 40%;
+}
+/* .img-1{
+
+}
+
+.name-maldives{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    top: 34%;
+    left: 40%;
+}
+.location div img{
+    width: 100%;
+    height: 100%;
+}
+.img{
+    position: relative;
+}
+.name-indonesia{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    top: 34%;
+    left: 40%;
+}
+.location{
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.2rem;
+    height: 18rem;
+}
+.location > .img-1{
+    flex-grow: 2;
+    position: relative;
+}
+.name-srilanka{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    top: 38%;
+    left: 40%;
+}
+.location > .img-2{
+    flex-grow: 3;
+    position: relative;
+}
+.name-north{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    top: 36%;
+    left: 32%;
+}
+.location > .img-3{
+    flex-grow: 1;
+    position: relative;
+}
+.name-kashmir{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    top: 34%;
+    left: 32%;
+}
+.location div img{
+    width: 100%;
+    height: 100%;
+}
+
+.location .img-1{
+    flex-grow: 2;
+    position: relative;
+}
+.name-bangladesh{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    top: 35%;
+    left: 35%;
+}
+.location-3 .img-2{
+    flex-grow: 4;
+    position: relative;
+}
+.name-bandarban{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    top: 35%;
+    left: 40%;
+}
+.location-3 div img{
+    width: 100%;
+    height: 100%;
+} */
 
 
 
@@ -308,5 +536,22 @@ form{
 }
 .popular-img img{
     width: 100%;
+}
+/* Choose Your Destination */
+.destination-tittle{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.location{
+    flex-direction: column;
+}
+.location{
+    display: flex;
+    gap: .5rem;
+    margin-bottom: .5rem;
+}
+.location img{
+    width: 100%;
+    height: 180px;
 }
 }
