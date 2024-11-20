@@ -389,7 +389,7 @@ form{
 }
 /* Deals & Discounts */
 .discount-continer{
-    text-align: center;
+    /* text-align: center; */
 }
 .deals{
     width: 643px;
@@ -497,6 +497,166 @@ form{
     border: none;
     background-color: var(--primary-color);
 }
+/* A Simple Perfect Place */
+.simple-place-continer{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.simple-place-contain h3{
+    color: var(--tittle-color);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    margin:0px 0px 16px 0px;
+}
+.simple-place-contain p{
+    color: var(--paragraph-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin:0px 0px 8px 0px;
+}
+.place-li{
+    color: var(--tittle-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.simple-place-video{
+    width: 610px;
+    flex-shrink: 0;
+}
+.simple-place-video video{
+    width: 100%;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+.video-overlay p{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px; 
+    width: 276px;
+}
+.simple-place-video{
+    position: relative;
+}
+.video-overlay{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.see-more{
+    margin-top: 24px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--primary-color);
+}
+/* Newsletter section */
+.newsletter-continer{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.newsletter-contain{
+    width: 474px;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid var(--primary-color);
+}
+.newsletter-contain h4{
+    color: var(--tittle-color);
+    font-size: 24px;
+    font-weight: 800;
+    margin:0px 16px 0px 0px;
+}
+.newsletter-contain p{
+    color: var(--paragraph-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 350px;
+}
+hr{
+    background-color: #131318;
+    margin: 24px 0px;
+}
+label input{
+    display: block;
+    width: -webkit-fill-available;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    padding: 16px 20px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 16px;
+}
+.subscribe{
+    width: -webkit-fill-available;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background-color: var(--primary-color);
+}
+.newsletter-img-continer img{
+    height: 100%;
+    width: 100%;
+}
+.newsletter-img-continer{
+    position: relative;
+}
+.save{
+    padding-top: 24px;
+    padding-bottom: 40px;
+    width: 324px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--primary-color);
+    position: absolute;
+    top:56% ;
+    left: 48% ;
+}
+.save p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+.save h4{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    margin: 0px;
+}
+
+
 
 
 /* Media Quarry  */
@@ -687,5 +847,66 @@ form{
 .discount-detail{
     width: 100%;
 }
-
+/* A Simple Perfect Place */
+.simple-place-continer{
+    flex-direction: column;
+    gap: 40px;
+}
+.simple-place-video{
+    width: 100%;
+}
+.video-overlay p{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.video-overlay{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+/* Newsletter section */
+.newsletter-continer{
+    flex-direction: column;
+}
+.newsletter-contain{
+    width: fit-content;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid var(--primary-color);
+}
+.newsletter-contain p{
+    width: 100%;
+}
+.newsletter-img-continer img{
+    width: 100%;
+    height: 300px;
+}
+.save{
+    padding: 24px 16px 20px 16px ;
+    width: 200px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--primary-color);
+    position: absolute;
+    top:55% ;
+    left: 28% ;
+}
+.save p{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+}
+.save h4{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px;
+}
 }
