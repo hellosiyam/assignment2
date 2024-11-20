@@ -129,7 +129,7 @@ form{
     z-index: 2;
 }
 .where-go{
-    width: 100%;
+    width: -webkit-fill-available;
     height: 3rem;
     border-radius: 0.5rem;
     padding-left: 1rem;
@@ -137,7 +137,7 @@ form{
     border: none;
 }
 .when{
-    width: 100%;
+    width: -webkit-fill-available;
     height: 3.25rem; 
     border-radius: 0.5rem;
     color: rgba(19, 19, 24, 0.50);
@@ -147,7 +147,7 @@ form{
     border: none;
 }
 .typs{
-    width: 100%;
+    width: -webkit-fill-available;
     height: 3.25rem;
     border-radius: 0.5rem;
     color: rgba(19, 19, 24, 0.50);
@@ -159,7 +159,7 @@ form{
 .find-button{
     display: flex;
     gap: 0.50rem;
-    width: 100%;
+    width: -webkit-fill-available;
     height: 3.25rem;
     border-radius: 0.5rem;
     background-color: var(--primary-color);
@@ -1115,20 +1115,20 @@ footer p{
     form{
         flex-direction: column;
         margin: 0px;
-        padding: 1rem;
+        padding: 3rem;
         gap: 1rem;
     }
     .where-go{
-        width: 95%;
+        width: -webkit-fill-available;
     }
     .when{
-        width: 100%;
+        width: -webkit-fill-available;
     }
     .typs{
-        width: 100%;
+        width: -webkit-fill-available;
     }
     .find-button {
-        width: 100%;
+        width: -webkit-fill-available;
     }
     /* Our Popular Tours */
     .popular{
@@ -1158,6 +1158,7 @@ footer p{
     }
     .popular-img img{
         width: 100%;
+        margin: 0px;
     }
     /* Choose Your Destination */
     .destination-tittle{
@@ -1175,28 +1176,35 @@ footer p{
     }
     .location img{
         width: 100%;
-        height: 180px;
+        height: 300px;
     }
     .img-1{
         margin: 0px;
+        object-fit: cover;
     }
     .img-2{
         margin: 0px;
+        object-fit: cover;
     }
     .img-3{
         margin: 0px;
+        object-fit: cover;
     }
     .img-4{
         margin: 0px;
+        object-fit: cover;
     }
     .img-5{
         margin: 0px;
+        object-fit: cover;
     }
     .img-6{
         margin: 0px;
+        object-fit: cover;
     }
     .img-7{
         margin: 0px;
+        object-fit: cover;
     }
     /* Why Choose Us */
     .why{
