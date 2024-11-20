@@ -3,13 +3,29 @@
     --tittle-color: #131318;
     --paragraph-color:#5A5A5D;
 }
-
+*{
+    max-width: 1440px;
+    margin: 0px auto;
+}
 body{
   font-family: "Mulish", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  padding: 2.5rem 7.5rem ;
+}
+header{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 2.5rem 7.5rem ; 
+}
+main{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 2.5rem 7.5rem ; 
 }
 section{
     margin: 80px 0px;
@@ -423,8 +439,8 @@ form{
     background: rgba(255, 255, 255, 0.80);
     width: 580px;
     position: absolute;
-    top: 11%;
-    left: 40%;
+    top: 12%;
+    left: 36%;
 }
 .card-icon{
     display: flex;
@@ -433,6 +449,7 @@ form{
 .card-icon img{
     width: 24px;
     height: 24px;
+    margin: 0px;
 }
 .card-icon p{
     margin: 2px 0px;
@@ -445,6 +462,7 @@ form{
     color: var(--tittle-color);
     font-size: 24px;
     font-weight: 800;
+    margin: 16px 0px;
 }
 .discount-detail{
     color: var(--paragraph-color);
@@ -452,11 +470,13 @@ form{
     font-weight: 400;
     line-height: 26px;
     width: 452px;
+    margin: 8px 0px;
 }
 .discount-price{
     color: var(--primary-color);
     font-size: 20px;
     font-weight: 800;
+    margin: 24px 0px;
 }
 .discount-button{
     width: 150px;
@@ -655,17 +675,91 @@ label input{
     text-align: center;
     margin: 0px;
 }
-
-
+/* Footer section  */
+footer{
+    margin: 40px 0px;
+    background-color:#FFFFFF;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-top:1px solid var(--primary-color);
+    padding-top: 24px;
+}
+footer .logo{
+    /* background-color: #FFF; */
+}
+.footer-logo{
+    align-items: center;
+}
+.footer-img{
+    width: 8%;
+}
+.footer-tittle{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 16px  ;
+}
+.Adventures{
+    color: var(--primary-color);
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+footer p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 769px;
+    margin: 8px auto;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.social-log{
+    display: flex;
+    gap: 32px;
+    width: 80px;
+    margin: 24px auto;
+    justify-content: center;
+}
+.footer-hr{
+    width: 872px;
+    height: 1px;
+    margin: 50px auto;
+    background: rgba(19, 19, 24, 0.10);
+    height: .5px;
+}
+.copy-right{
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+}
 
 
 /* Media Quarry  */
 /* small devices  */
 @media screen and (max-width:576px) {
-body{
+/* body{
     margin: 0px;
     padding: 16px;
   }  
+body{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  } */
+header{
+    margin: 0px;
+    padding: 16px;
+  }
+main{
+    margin: 0px;
+    padding: 16px;
+  }
   nav{
     display: flex;
     flex-direction: column;
@@ -785,6 +879,27 @@ form{
     width: 100%;
     height: 180px;
 }
+.img-1{
+    margin: 0px;
+}
+.img-2{
+    margin: 0px;
+}
+.img-3{
+    margin: 0px;
+}
+.img-4{
+    margin: 0px;
+}
+.img-5{
+    margin: 0px;
+}
+.img-6{
+    margin: 0px;
+}
+.img-7{
+    margin: 0px;
+}
 /* Why Choose Us */
 .why{
     text-align: center;
@@ -872,13 +987,17 @@ form{
     flex-direction: column;
 }
 .newsletter-contain{
-    width: fit-content;
+    margin: 0px;
+    width: auto;
     padding: 24px;
     border-radius: 16px;
     border: 1px solid var(--primary-color);
 }
 .newsletter-contain p{
     width: 100%;
+}
+.newsletter-img-continer{
+    margin: 0px;
 }
 .newsletter-img-continer img{
     width: 100%;
@@ -909,4 +1028,312 @@ form{
     text-align: center;
     margin: 0px;
 }
+/* footer section  */
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo img{
+    width: 24%;
+}
+footer p{
+    width: 100%;
+}
+.footer-hr{
+    width: 100%;
+}
+}
+
+/* Media quary for medum Devices */
+@media screen and (min-width:577px) and (max-width:1024px) {
+    header{
+        margin: 0px;
+        padding: 16px;
+      }
+    main{
+        margin: 0px;
+        padding: 16px;
+      }
+      nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    .logo-img{
+        width: 20%;
+    }
+    .logo-tittle{
+        color: #131318;
+        font-size: 1.8rem;
+        font-weight: 800;
+    }
+    .Adventures{
+        color: var(--primary-color);
+        font-size: 1.8rem;
+        font-weight: 800;
+    }
+    .nav-ul{
+        display: none;
+        gap: 0.5rem;
+        text-decoration: none;
+    }
+    
+    .nav-ul> .nav-ul, a{
+        list-style: none;
+        text-decoration: none;
+        color: var(--paragraph-color);
+        font-size: 1rem;
+        font-weight: 400;
+        margin: 0px;
+        
+    }
+    .selected{
+        color: var(--primary-color);
+        font-size: 1.125rem;
+        font-weight: 700;
+    }
+    .hero{
+        padding: 0px;
+    }
+    .hero-tittle{
+        padding-top: 16px;
+        font-size: 3rem;
+    }
+    .hero-item{
+        padding: 1rem;
+    }
+    form{
+        flex-direction: column;
+        margin: 0px;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .where-go{
+        width: 95%;
+    }
+    .when{
+        width: 100%;
+    }
+    .typs{
+        width: 100%;
+    }
+    .find-button {
+        width: 100%;
+    }
+    /* Our Popular Tours */
+    .popular{
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .popular-contain{
+        display: flex;
+        flex-direction: column;
+    }
+    .popular-tittle{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .popular-detail{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .popular-li{
+        margin-top: 0.75rem;
+        margin-bottom: 0.75rem
+    }
+    .popular-button{
+        margin-top: 1.5rem;
+    }
+    .popular-img img{
+        width: 100%;
+    }
+    /* Choose Your Destination */
+    .destination-tittle{
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: .5rem;
+    }
+    .location{
+        flex-direction: column;
+    }
+    .location{
+        display: flex;
+        gap: .5rem;
+        margin-bottom: .5rem;
+    }
+    .location img{
+        width: 100%;
+        height: 180px;
+    }
+    .img-1{
+        margin: 0px;
+    }
+    .img-2{
+        margin: 0px;
+    }
+    .img-3{
+        margin: 0px;
+    }
+    .img-4{
+        margin: 0px;
+    }
+    .img-5{
+        margin: 0px;
+    }
+    .img-6{
+        margin: 0px;
+    }
+    .img-7{
+        margin: 0px;
+    }
+    /* Why Choose Us */
+    .why{
+        text-align: center;
+        width: 100%;
+    }
+    .why-tittle{
+        font-size: 1.5rem;
+    }
+    .why-continer-1{
+        flex-direction: column;
+    }
+    .why-continer-2{
+        flex-direction: column;
+        padding: 0px;
+    }
+    /* Deals & Discounts */
+    .deals{
+        width: 100%;
+    }
+    .deals-tittle {
+        font-size: 1.5rem;
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+    .deals-detail{
+        width: 100%;
+    }
+    .card-img img{
+        width: 100%;
+        height: 600px;
+        border-radius: 16px;
+    }
+    .discount-card{
+        border-radius: 16px;
+        padding: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        position: absolute;
+        width: 281px;
+        top: 28%;
+        left: 4%;
+    }
+    .discount-card-2{
+        padding: 16px;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        position: absolute;
+        width: 281px;
+        top: 28%;
+        left: 4%;
+    }
+    .card-icon{
+        flex-wrap: wrap;
+    }
+    .discount-tittle{
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+    .discount-detail{
+        width: 100%;
+    }
+    /* A Simple Perfect Place */
+    .simple-place-continer{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .simple-place-video{
+        width: 100%;
+    }
+    .video-overlay p{
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+    .video-overlay{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    /* Newsletter section */
+    .newsletter-continer{
+        flex-direction: column;
+    }
+    .newsletter-contain{
+        margin: 0px;
+        width: auto;
+        padding: 24px;
+        border-radius: 16px;
+        border: 1px solid var(--primary-color);
+    }
+    .newsletter-contain p{
+        width: 100%;
+    }
+    .newsletter-img-continer{
+        margin: 0px;
+    }
+    .newsletter-img-continer img{
+        width: 100%;
+        height: 300px;
+    }
+    .save{
+        padding: 24px 16px 20px 16px ;
+        width: 200px;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: var(--primary-color);
+        position: absolute;
+        top:52% ;
+        left: 67% ;
+    }
+    .save p{
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0px;
+    }
+    .save h4{
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+        margin: 0px;
+    }
+    /* footer section  */
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-logo img{
+        width: 24%;
+    }
+    footer p{
+        width: 100%;
+    }
+    .footer-hr{
+        width: 100%;
+    }
 }
